@@ -22,7 +22,7 @@ Start here:
 [[00 - About/About\|About]] 
 
 [[01 - Philosophy/Philosophy\|Philosophy]]
-[[Training\|Training]]
+[[02 - Training/Training\|Training]]
 [[Nutrition\|Nutrition]]
 [[Business\|Business]]
 [[Faith\|Faith]]
