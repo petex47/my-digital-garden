@@ -26,3 +26,4 @@ Start here:
 [[Business\|Business]]
 [[Faith\|Faith]]
 
+Powered By [Obsidian](https://obsidian.md/) + [Digital Garden ](https://dg-docs.ole.dev/)

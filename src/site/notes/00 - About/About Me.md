@@ -3,3 +3,6 @@
 ---
 
 Hello
+
+philosphy/
+what is kaizej
