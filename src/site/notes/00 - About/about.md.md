@@ -3,14 +3,13 @@
 ---
 
 
+
 # About
 
-This garden documents my journey building across faith, fitness, business, and writing.
+Welcome to the Kaizen Garden.
 
-## Start here
-- [[The Kaizen Garden\|The Kaizen Garden]]
-- [[Philosophy\|Philosophy]]
-- [[Training\|Training]]
-- [[Nutrition\|Nutrition]]
-- [[Business\|Business]]
-- [[Faith\|Faith]]
+This site documents my journey building:
+
+- Kaizen Fuel Kitchen
+- Kaizen Wolf TX
+- The Kaizen Tribe

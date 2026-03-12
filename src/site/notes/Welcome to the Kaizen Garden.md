@@ -19,6 +19,7 @@ This is my living handbook documenting the journey of building:
 • The Kaizen Tribe
 
 Start here:
+[[00 - About\|00 - About]] 
 
 [[Philosophy\|Philosophy]]
 [[Training\|Training]]
