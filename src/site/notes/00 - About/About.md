@@ -5,10 +5,6 @@
 
 # About
 
-Welcome to the Kaizen Garden.
+dkfzbsdfgasdkjgbjsdbfgjkasdfgbadsfg
 
-This site documents my journey building:
-
-- Kaizen Fuel Kitchen
-- Kaizen Wolf TX
-- The Kaizen Tribe 
+sdglksadgjdfsgr
