@@ -21,7 +21,7 @@ This is my living handbook documenting the journey of building:
 Start here:
 [[00 - About/About\|About]] 
 
-[[Philosophy\|Philosophy]]
+[[01 - Philosophy/Philosophy\|Philosophy]]
 [[Training\|Training]]
 [[Nutrition\|Nutrition]]
 [[Business\|Business]]
