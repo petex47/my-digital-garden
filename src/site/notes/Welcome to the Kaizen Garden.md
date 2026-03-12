@@ -27,25 +27,6 @@ Start here:
 [[Business\|Business]]
 [[Faith\|Faith]]
 
-# The Kaizen Garden
 
-Train.  
-Fuel.  
-Build.  
-Pray.
-
-## Foundations
-[[About\|About]]
-[[Philosophy\|Philosophy]]
-
-## Performance
-[[Train\|Train]]
-[[Fuel\|Fuel]]
-
-## Entrepreneurship
-[[Build\|Build]]
-
-## Life
-[[Faith\|Faith]]
 
 Powered By [Obsidian](https://obsidian.md/) + [Digital Garden ](https://dg-docs.ole.dev/)
