@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/* force light main area no matter what theme is saved */
-html[data-theme="light"] body,
-html[data-theme="dark"] body,
+/* ===== FORCE LIGHT MAIN / DARK SIDEBAR ===== */
 body {
   --background-primary: #ffffff;
   --background-primary-alt: #f7f7f7;
@@ -29,7 +27,7 @@ body {
   font-family: 'Manrope', sans-serif !important;
 }
 
-/* main content */
+/* main content area */
 main,
 article,
 .content,
@@ -40,7 +38,7 @@ article,
   color: #111111 !important;
 }
 
-/* text */
+/* main text */
 main p,
 main li,
 main span,
