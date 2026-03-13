@@ -5,11 +5,17 @@
 **Planted:** 03/12/2026
 **Last tended:** 03/12/2026
 
-**🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.
 
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
-**WELCOME TO THE KAIZEN GARDEN**
+**🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.
+### **WELCOME TO THE KAIZEN GARDEN**>>>
+Train. Fuel. Build. Pray.
+This is my living handbook documenting the journey of building:
+
+• Kaizen Fuel Kitchen
+• Kaizen Wolf TX
+• The Kaizen Tribe
 
 Start here:
 **[[00 - About/About\|About]]** 
@@ -22,18 +28,7 @@ Start here:
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
 
-# 🏴󠁵󠁳󠁴󠁸󠁿  **WELCOME TO THE KAIZEN GARDEN**>>>
-Train. Fuel. Build. Pray.
-This is my living handbook documenting the journey of building:
 
-• Kaizen Fuel Kitchen
-• Kaizen Wolf TX
-• The Kaizen Tribe
-
-
-**Hey, what’s up? Welcome to My Tech Portfolio**
-
-Yo, I’m Petex! I’m diving headfirst into the world of IT and networking, and I’m here to share what I’m learning along the way. I’m all about picking up new skills and pushing myself to get better at this tech game.
 
 **Here’s what I’m currently grinding on:**
 
