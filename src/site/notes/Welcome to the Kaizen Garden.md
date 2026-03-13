@@ -25,7 +25,7 @@ Start here:
 [[02 - Training/Training\|Training]]
 [[03 - Nutrition/Nutrition\|Nutrition]]
 [[04 - Business/Business\|Business]]
-[[Faith\|Faith]]
+[[05 - Faith/Faith\|Faith]]
 
 
 
