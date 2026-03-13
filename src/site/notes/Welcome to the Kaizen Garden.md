@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","tags":["gardenEntry"],"created":"2026-03-12T03:15:27.212-05:00"}
+{"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","pinned":true,"tags":["gardenEntry"],"created":"2026-03-12T03:15:27.212-05:00"}
 ---
 
 
