@@ -1,18 +1,57 @@
-/* MAIN CONTENT = white background + black text */
-main,
-article,
-.content,
-.markdown-preview-view,
-.dg-article {
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+/* ===== GLOBAL TOKENS ===== */
+body {
+  --background-primary: #ffffff;
+  --background-primary-alt: #f7f7f7;
+
+  --background-secondary: #050505;
+  --background-secondary-alt: #101010;
+
+  --text-normal: #111111;
+  --text-muted: #555555;
+  --text-faint: #777777;
+
+  --text-accent: #f7c428;
+  --text-accent-hover: #ffd95e;
+
+  --link-color: #111111;
+  --link-color-hover: #444444;
+}
+
+/* ===== TYPOGRAPHY ===== */
+html,
+body {
+  font-family: 'Manrope', sans-serif !important;
   background: #ffffff !important;
   color: #111111 !important;
 }
 
-/* body text inside main content */
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.brand,
+.logo,
+.sidebar a,
+nav a {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* ===== MAIN CONTENT: WHITE ===== */
+main,
+article,
+.content,
+.dg-article,
+.markdown-preview-view,
+.markdown-preview-section {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
 main p,
 main li,
 main span,
 main div,
+main blockquote,
 article p,
 article li,
 article span,
@@ -21,7 +60,6 @@ article blockquote {
   color: #111111 !important;
 }
 
-/* headings */
 main h1,
 main h2,
 main h3,
@@ -37,10 +75,11 @@ article h6 {
   color: #111111 !important;
 }
 
-/* links in main content */
 main a,
 article a {
   color: #111111 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
 }
 
 main a:hover,
@@ -48,7 +87,43 @@ article a:hover {
   color: #444444 !important;
 }
 
-html,
-body {
-  background: #ffffff !important;
+/* ===== SIDEBAR: KEEP DARK ===== */
+aside,
+.sidebar,
+.left-sidebar,
+.filetree-sidebar,
+nav {
+  background: #050505 !important;
+  color: #f2f2f2 !important;
+}
+
+aside a,
+.sidebar a,
+.left-sidebar a,
+.filetree-sidebar a,
+nav a {
+  color: #f7c428 !important;
+  text-decoration: none !important;
+}
+
+aside a:hover,
+.sidebar a:hover,
+.left-sidebar a:hover,
+.filetree-sidebar a:hover,
+nav a:hover {
+  color: #ffe69a !important;
+}
+
+/* ===== BRAND BOX ===== */
+.site-title,
+.brand,
+.logo {
+  color: #ece7df !important;
+  background: #101010 !important;
+}
+
+/* ===== CODE ===== */
+code,
+pre {
+  font-family: 'JetBrains Mono', monospace !important;
 }
