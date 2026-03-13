@@ -8,8 +8,7 @@
 
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
-**🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.
-### **WELCOME TO THE KAIZEN GARDEN**>>>
+### **🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.>>>
 Train. Fuel. Build. Pray.
 This is my living handbook documenting the journey of building:
 
