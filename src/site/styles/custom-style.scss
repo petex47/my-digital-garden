@@ -115,3 +115,20 @@ code,
 pre {
   font-family: 'JetBrains Mono', monospace !important;
 }
+/* Fix content overlap with sidebar */
+.content,
+.main-content,
+.dg-content,
+#content,
+main {
+  margin-left: 280px !important;
+  padding: 2rem !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+/* Fix home note title in sidebar */
+.nav-node-title,
+.sidebar .active,
+.filetree-sidebar .active {
+  color: #f7c428 !important;
+}
