@@ -1,37 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+/* ===== MAIN CONTENT: black + off-white ===== */
 
-/* Regular text */
-html,
-body,
-p,
-li,
-span,
-div,
-a,
-button,
-input,
-textarea,
-blockquote {
-  font-family: 'Manrope', sans-serif !important;
+/* right/content side background */
+main,
+article {
+  background: #050505 !important;
 }
 
-/* Headers + site title + sidebar section titles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.site-title,
-.brand,
-.sidebar a,
-nav a,
-header a {
-  font-family: 'JetBrains Mono', monospace !important;
+/* main body text */
+main p,
+main li,
+main span,
+main div,
+main blockquote {
+  color: #e9e5de !important; /* slight off-white */
 }
 
-/* Optional: keep code blocks mono too */
-code,
-pre {
-  font-family: 'JetBrains Mono', monospace !important;
+/* main headings */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  color: #f7f4ef !important; /* brighter off-white */
+}
+
+/* links inside main content only */
+main a {
+  color: #f1ede6 !important;
+  text-decoration-color: rgba(241, 237, 230, 0.45) !important;
+}
+
+/* hover for main content links */
+main a:hover {
+  color: #ffffff !important;
+  text-decoration-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* optional: make bullets match */
+main ul,
+main ol {
+  color: #e9e5de !important;
 }
