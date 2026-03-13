@@ -1,13 +1,62 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+/* ===== PETEX47 THEME TOGGLE ===== */
+
+html[data-theme="light"] body {
+  --text-normal: #111111;
+  --text-muted: #5e5e5e;
+  --text-faint: #7a7a7a;
+  --text-accent: #f7c428;
+  --text-accent-hover: #ffd95e;
+  --link-color: #111111;
+  --link-color-hover: #444444;
+  --background-primary: #f7f5f2;
+  --background-primary-alt: #f1eeea;
+  --background-secondary: #050505;
+  --background-secondary-alt: #101010;
+  --interactive-normal: #1a1a1a;
+  --interactive-hover: #2a2a2a;
+  --interactive-accent: #f7c428;
+  --interactive-accent-hover: #ffd95e;
+}
+
+html[data-theme="dark"] body {
+  --text-normal: #f2f2f2;
+  --text-muted: #b5b5b5;
+  --text-faint: #8c8c8c;
+  --text-accent: #f7c428;
+  --text-accent-hover: #ffd95e;
+  --link-color: #f2f2f2;
+  --link-color-hover: #ffffff;
+  --background-primary: #0b0b0b;
+  --background-primary-alt: #111111;
+  --background-secondary: #050505;
+  --background-secondary-alt: #101010;
+  --interactive-normal: #171717;
+  --interactive-hover: #232323;
+  --interactive-accent: #f7c428;
+  --interactive-accent-hover: #ffd95e;
+}
+
+/* toggle button */
+.petex-theme-toggle-wrap {
+  margin: 14px 0 10px;
+}
+
+.petex-theme-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: #111111;
+  color: #f2f2f2;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.petex-theme-toggle:hover {
+  opacity: 0.92;
 }
