@@ -7,9 +7,10 @@
 **Last tended:** 03/12/2026
 
 > [!caution] Work In Progress
-> This site is currently a work in progress. 
-> Stay updated on the learning journey on X -  [petex47](https://x.com/petex47)
+> This site is always being updated with new things that I learn or experience.
+> Follow me on X -  [petex47](https://x.com/petex47)
 
+**The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 **The Kaizen Garden**
 
 Train.
