@@ -7,9 +7,9 @@
 
 **🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.
 
-WELCOME TO THE KAIZEN GARDEN
-
 ![petex47.jpg|238](/img/user/petex47.jpg)
+
+**WELCOME TO THE KAIZEN GARDEN**
 
 Start here:
 **[[00 - About/About\|About]]** 
@@ -22,7 +22,7 @@ Start here:
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
 
-# 🏴󠁵󠁳󠁴󠁸󠁿  **The Kaizen Garden>>>**
+# 🏴󠁵󠁳󠁴󠁸󠁿  **WELCOME TO THE KAIZEN GARDEN**>>>
 Train. Fuel. Build. Pray.
 This is my living handbook documenting the journey of building:
 
@@ -66,10 +66,10 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
 
 - Running and Lifting (Marathons and Ironman 70.3 training)
 - Writing
-- Learning Python
+- Tinkering with AI products
  - Line cook (10 years)
- - training for a marathon
- - Went to my first tech conference this year (PyTexas 2024)
+ - Training for a marathon
+ - Went to my first tech conference (PyTexas 2024)
 
 
 ---
