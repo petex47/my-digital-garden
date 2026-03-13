@@ -1,44 +1,196 @@
-/* ===== MAIN CONTENT: black + off-white ===== */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/* right/content side background */
-main,
-article {
-  background: #050505 !important;
+/* =========================
+   GLOBAL FONTS
+========================= */
+body {
+  font-family: 'Manrope', sans-serif !important;
 }
 
-/* main body text */
+/* headers + brand */
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.brand,
+.logo,
+.sidebar a,
+nav a {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+
+/* whole page */
+html,
+body {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* outer layout */
+main {
+  background: #ffffff !important;
+  max-width: 980px !important;
+  margin: 0 auto !important;
+  padding: 56px 64px !important;
+  box-shadow: none !important;
+}
+
+/* article/content card */
+article,
+.markdown-preview-view,
+.dg-article,
+.content {
+  background: #ffffff !important;
+  color: #111111 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* =========================
+   MAIN CONTENT STYLING
+========================= */
+
 main p,
 main li,
 main span,
 main div,
-main blockquote {
-  color: #e9e5de !important; /* slight off-white */
+main blockquote,
+article p,
+article li,
+article span,
+article div,
+article blockquote {
+  color: #111111 !important;
+  line-height: 1.75 !important;
+  font-family: 'Manrope', sans-serif !important;
 }
 
-/* main headings */
 main h1,
 main h2,
 main h3,
 main h4,
 main h5,
-main h6 {
-  color: #f7f4ef !important; /* brighter off-white */
+main h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: #111111 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-top: 0.4em;
+  margin-bottom: 0.7em;
 }
 
-/* links inside main content only */
-main a {
-  color: #f1ede6 !important;
-  text-decoration-color: rgba(241, 237, 230, 0.45) !important;
+main h1,
+article h1 {
+  font-size: clamp(2rem, 3vw, 3rem) !important;
 }
 
-/* hover for main content links */
-main a:hover {
-  color: #ffffff !important;
-  text-decoration-color: rgba(255, 255, 255, 0.7) !important;
+main h2,
+article h2 {
+  font-size: clamp(1.4rem, 2vw, 2rem) !important;
 }
 
-/* optional: make bullets match */
+main a,
+article a {
+  color: #111111 !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 3px !important;
+}
+
+main a:hover,
+article a:hover {
+  color: #444444 !important;
+}
+
 main ul,
-main ol {
-  color: #e9e5de !important;
+main ol,
+article ul,
+article ol {
+  padding-left: 1.4rem !important;
+  margin-bottom: 1.2rem !important;
+}
+
+main blockquote,
+article blockquote {
+  border-left: 3px solid #111111 !important;
+  padding-left: 16px !important;
+  margin-left: 0 !important;
+  color: #222222 !important;
+}
+
+code,
+pre {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* =========================
+   SIDEBAR: KEEP DARK
+========================= */
+
+aside,
+.sidebar,
+.filetree-sidebar,
+.left-sidebar,
+nav,
+.menu,
+.tree-container {
+  background: #050505 !important;
+  color: #f5f5f5 !important;
+}
+
+/* sidebar links */
+aside a,
+.sidebar a,
+.filetree-sidebar a,
+.left-sidebar a,
+nav a {
+  color: #f7c428 !important;
+  text-decoration: none !important;
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+aside a:hover,
+.sidebar a:hover,
+.filetree-sidebar a:hover,
+.left-sidebar a:hover,
+nav a:hover {
+  color: #fff3c4 !important;
+}
+
+/* sidebar section labels / muted text */
+aside,
+.sidebar,
+.filetree-sidebar,
+.left-sidebar {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* sidebar brand box */
+.site-title,
+.brand,
+.logo {
+  color: #f2f2f2 !important;
+}
+
+/* =========================
+   CLEANER SPACING
+========================= */
+
+hr {
+  border: none !important;
+  border-top: 1px solid #e5e5e5 !important;
+  margin: 32px 0 !important;
+}
+
+p + p {
+  margin-top: 0.9rem !important;
 }
