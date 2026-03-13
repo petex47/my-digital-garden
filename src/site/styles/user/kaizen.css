@@ -1,137 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
+/* ===== COLORS ===== */
 :root{
-  --kz-page:#f7f5f2;
-  --kz-text:#111111;
-  --kz-muted:#5f5f5f;
-  --kz-sidebar:#050505;
-  --kz-sidebar-text:#f3f3f3;
-  --kz-gold:#f7c428;
+  --kz-bg: #f7f5f2;
+  --kz-text: #111111;
+  --kz-sidebar: #050505;
+  --kz-sidebar-text: #f2f2f2;
+  --kz-gold: #f7c428;
 }
 
-/* base */
+/* ===== GLOBAL ===== */
 html,
-body{
-  background:var(--kz-page) !important;
-  color:var(--kz-text) !important;
-  font-family:'Manrope',sans-serif !important;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+body {
+  background: var(--kz-bg) !important;
+  color: var(--kz-text) !important;
+  font-family: 'Manrope', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* kill bad offsets from previous CSS */
-main,
-article,
-.content,
-.dg-article,
-.markdown-preview-view{
-  position:static !important;
-  inset:auto !important;
-  left:auto !important;
-  right:auto !important;
-  transform:none !important;
-  box-sizing:border-box !important;
-}
-
-/* sidebar */
+/* ===== SIDEBAR ===== */
 aside,
 .sidebar,
 .left-sidebar,
-.filetree-sidebar{
-  background:var(--kz-sidebar) !important;
-  color:var(--kz-sidebar-text) !important;
-  border-right:1px solid rgba(255,255,255,.06) !important;
+.filetree-sidebar,
+nav {
+  background: var(--kz-sidebar) !important;
+  color: var(--kz-sidebar-text) !important;
 }
 
 aside a,
 .sidebar a,
 .left-sidebar a,
-.filetree-sidebar a{
-  color:var(--kz-gold) !important;
-  text-decoration:none !important;
-  font-family:'JetBrains Mono',monospace !important;
+.filetree-sidebar a,
+nav a {
+  font-family: 'JetBrains Mono', monospace !important;
+  color: var(--kz-gold) !important;
+  text-decoration: none !important;
 }
 
 aside a:hover,
 .sidebar a:hover,
 .left-sidebar a:hover,
-.filetree-sidebar a:hover{
-  color:#ffe69a !important;
+.filetree-sidebar a:hover,
+nav a:hover {
+  color: #ffe69a !important;
 }
 
+/* sidebar title/logo */
 .site-title,
 .brand,
-.logo{
-  font-family:'JetBrains Mono',monospace !important;
-  color:#ece7df !important;
+.logo {
+  font-family: 'JetBrains Mono', monospace !important;
+  color: #ece7df !important;
 }
 
-/* main content area */
-main{
-  background:var(--kz-page) !important;
-  padding:56px 64px 80px !important;
-}
-
+/* ===== MAIN CONTENT COLORS ONLY ===== */
+main,
 article,
 .content,
 .dg-article,
-.markdown-preview-view{
-  background:transparent !important;
-  color:var(--kz-text) !important;
-  max-width:760px !important;
-  width:100% !important;
-  margin:0 !important;
-  padding:0 !important;
-  border:none !important;
-  box-shadow:none !important;
+.markdown-preview-view {
+  background: var(--kz-bg) !important;
+  color: var(--kz-text) !important;
+}
+
+/* body text */
+main p,
+main li,
+main span,
+main div,
+article p,
+article li,
+article span,
+article div {
+  font-family: 'Manrope', sans-serif !important;
+  color: var(--kz-text) !important;
 }
 
 /* headings */
-main h1, main h2, main h3, main h4, main h5, main h6,
-article h1, article h2, article h3, article h4, article h5, article h6{
-  font-family:'JetBrains Mono',monospace !important;
-  color:var(--kz-text) !important;
-  line-height:1.1 !important;
-  margin:0 0 1rem !important;
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  font-family: 'JetBrains Mono', monospace !important;
+  color: var(--kz-text) !important;
 }
 
-/* body copy */
-main p, main li, main span, main div, main blockquote,
-article p, article li, article span, article div, article blockquote{
-  font-family:'Manrope',sans-serif !important;
-  color:var(--kz-text) !important;
-  line-height:1.7 !important;
-}
-
-/* links in main content */
+/* links in content */
 main a,
-article a{
-  color:var(--kz-text) !important;
-  text-decoration:underline !important;
-  text-underline-offset:3px !important;
+article a {
+  color: var(--kz-text) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
 }
 
 main a:hover,
-article a:hover{
-  color:#444444 !important;
+article a:hover {
+  color: #444444 !important;
 }
 
-/* tone down footer-ish text */
-main footer,
-article footer{
-  color:var(--kz-muted) !important;
-}
-
-/* mobile */
-@media (max-width: 900px){
-  main{
-    padding:28px 24px 56px !important;
-  }
-
-  article,
-  .content,
-  .dg-article,
-  .markdown-preview-view{
-    max-width:100% !important;
-  }
+/* code */
+code,
+pre {
+  font-family: 'JetBrains Mono', monospace !important;
 }
