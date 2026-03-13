@@ -24,7 +24,7 @@ Start here:
 [[01 - Philosophy/Philosophy\|Philosophy]]
 [[02 - Training/Training\|Training]]
 [[03 - Nutrition/Nutrition\|Nutrition]]
-[[Business\|Business]]
+[[04 - Business/Business\|Business]]
 [[Faith\|Faith]]
 
 
