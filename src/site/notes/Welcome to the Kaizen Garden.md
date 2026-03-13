@@ -10,37 +10,25 @@
 > This site is always being updated with new things that I learn or experience.
 > Follow me on X -  [petex47](https://x.com/petex47)
 
-**The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
-
-**The Kaizen Garden**
-
-Train.
-Fuel.
-Build.
-Pray.
-
-This is my living handbook documenting the journey of building:
-
-• Kaizen Fuel Kitchen
-• Kaizen Wolf TX
-• The Kaizen Tribe
 
 Start here:
 [[00 - About/About\|About]] 
-
 [[01 - Philosophy/Philosophy\|Philosophy]]
 [[02 - Training/Training\|Training]]
 [[03 - Nutrition/Nutrition\|Nutrition]]
 [[04 - Business/Business\|Business]]
 [[05 - Faith/Faith\|Faith]]
 
-# 🏴󠁵󠁳󠁴󠁸󠁿  **The Kaizen Garden>>>**
-Python, Networking, Network Automation, Linux, Azure, Network Security.
+**The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
-Train.
-Fuel.
-Build.
-Pray.
+
+# 🏴󠁵󠁳󠁴󠁸󠁿  **The Kaizen Garden>>>**
+Train. Fuel. Build. Pray.
+This is my living handbook documenting the journey of building:
+
+• Kaizen Fuel Kitchen
+• Kaizen Wolf TX
+• The Kaizen Tribe
 
 
 **Hey, what’s up? Welcome to My Tech Portfolio**
