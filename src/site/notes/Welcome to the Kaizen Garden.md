@@ -27,9 +27,6 @@ Start here:
 
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
-
-
-
 **Here’s what I’m currently grinding on:**
 
 - thing #1
@@ -41,31 +38,6 @@ Start here:
 This site is where I’m throwing down everything I’m learning—projects, certifications, and all that good stuff. If you’re into tech, want to see what I’m up to, or just wanna chat about this journey, you’re in the right place.
 
 Feel free to look around, hit me up if you want to connect, or just drop a comment. Let’s keep it real and have some fun with tech!
-
-
-## About Me
-**Who is Pete?**
-
-> **"Make ambition, speed, and intensity your best friends."** - Jay Yang
-
-
- **Public notes** on networking, automation, Linux, endurance, and mindset.
-
-**Career**
-
-- Line Cook for 10+ years
-- Aiming to transition to tech as a Network Engineer (I hope to start as an IT Network Technician or something similar.)
-- Learning to be proficient in Python in Network Automation
-
-**Hobbies and Interests**
-
-- Running and Lifting (Marathons and Ironman 70.3 training)
-- Writing
-- Tinkering with AI products
- - Line cook (10 years)
- - Training for a marathon
- - Went to my first tech conference (PyTexas 2024)
-
 
 ---
 ## Personal Links 
