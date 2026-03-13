@@ -1,62 +1,49 @@
-/* ===== PETEX47 THEME TOGGLE ===== */
-
-html[data-theme="light"] body {
-  --text-normal: #111111;
-  --text-muted: #5e5e5e;
-  --text-faint: #7a7a7a;
-  --text-accent: #f7c428;
-  --text-accent-hover: #ffd95e;
-  --link-color: #111111;
-  --link-color-hover: #444444;
-  --background-primary: #f7f5f2;
-  --background-primary-alt: #f1eeea;
-  --background-secondary: #050505;
-  --background-secondary-alt: #101010;
-  --interactive-normal: #1a1a1a;
-  --interactive-hover: #2a2a2a;
-  --interactive-accent: #f7c428;
-  --interactive-accent-hover: #ffd95e;
+/* MAIN CONTENT = white background + black text */
+main,
+article,
+.content,
+.markdown-preview-view,
+.dg-article {
+  background: #ffffff !important;
+  color: #111111 !important;
 }
 
-html[data-theme="dark"] body {
-  --text-normal: #f2f2f2;
-  --text-muted: #b5b5b5;
-  --text-faint: #8c8c8c;
-  --text-accent: #f7c428;
-  --text-accent-hover: #ffd95e;
-  --link-color: #f2f2f2;
-  --link-color-hover: #ffffff;
-  --background-primary: #0b0b0b;
-  --background-primary-alt: #111111;
-  --background-secondary: #050505;
-  --background-secondary-alt: #101010;
-  --interactive-normal: #171717;
-  --interactive-hover: #232323;
-  --interactive-accent: #f7c428;
-  --interactive-accent-hover: #ffd95e;
+/* body text inside main content */
+main p,
+main li,
+main span,
+main div,
+article p,
+article li,
+article span,
+article div,
+article blockquote {
+  color: #111111 !important;
 }
 
-/* toggle button */
-.petex-theme-toggle-wrap {
-  margin: 14px 0 10px;
+/* headings */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: #111111 !important;
 }
 
-.petex-theme-toggle {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 12px;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: #111111;
-  color: #f2f2f2;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.9rem;
-  border-radius: 0;
-  cursor: pointer;
+/* links in main content */
+main a,
+article a {
+  color: #111111 !important;
 }
 
-.petex-theme-toggle:hover {
-  opacity: 0.92;
+main a:hover,
+article a:hover {
+  color: #444444 !important;
 }
