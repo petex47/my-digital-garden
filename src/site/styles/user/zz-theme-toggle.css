@@ -1,0 +1,134 @@
+/* ===== THEME TOKENS ===== */
+:root[data-theme="light"]{
+  --page-bg:#f7f5f2;
+  --page-text:#111111;
+  --page-link:#111111;
+
+  --sidebar-bg:#050505;
+  --sidebar-text:#f2f2f2;
+  --sidebar-link:#f7c428;
+  --sidebar-link-hover:#ffe69a;
+
+  --brand-bg:#101010;
+  --brand-text:#ece7df;
+
+  --toggle-bg:#111111;
+  --toggle-text:#f2f2f2;
+  --toggle-border:rgba(255,255,255,0.08);
+}
+
+:root[data-theme="dark"]{
+  --page-bg:#0b0b0b;
+  --page-text:#f2f2f2;
+  --page-link:#f2f2f2;
+
+  --sidebar-bg:#000000;
+  --sidebar-text:#f2f2f2;
+  --sidebar-link:#f7c428;
+  --sidebar-link-hover:#ffe69a;
+
+  --brand-bg:#111111;
+  --brand-text:#ece7df;
+
+  --toggle-bg:#171717;
+  --toggle-text:#f2f2f2;
+  --toggle-border:rgba(255,255,255,0.08);
+}
+
+/* ===== PAGE ===== */
+html,
+body,
+main,
+article,
+.content,
+.dg-article,
+.markdown-preview-view {
+  background: var(--page-bg) !important;
+  color: var(--page-text) !important;
+}
+
+main p,
+main li,
+main span,
+main div,
+article p,
+article li,
+article span,
+article div,
+article blockquote {
+  color: var(--page-text) !important;
+}
+
+main a,
+article a {
+  color: var(--page-link) !important;
+}
+
+/* ===== SIDEBAR ===== */
+aside,
+.sidebar,
+.left-sidebar,
+.filetree-sidebar,
+nav {
+  background: var(--sidebar-bg) !important;
+  color: var(--sidebar-text) !important;
+}
+
+aside a,
+.sidebar a,
+.left-sidebar a,
+.filetree-sidebar a,
+nav a {
+  color: var(--sidebar-link) !important;
+}
+
+aside a:hover,
+.sidebar a:hover,
+.left-sidebar a:hover,
+.filetree-sidebar a:hover,
+nav a:hover {
+  color: var(--sidebar-link-hover) !important;
+}
+
+/* ===== BRAND BOX ===== */
+.site-title,
+.brand,
+.logo {
+  background: var(--brand-bg) !important;
+  color: var(--brand-text) !important;
+}
+
+/* ===== TOGGLE ===== */
+.theme-toggle-wrap{
+  margin-top:18px;
+  padding:0 0 8px 0;
+}
+
+.theme-toggle-btn{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 12px;
+  background:var(--toggle-bg);
+  color:var(--toggle-text);
+  border:1px solid var(--toggle-border);
+  border-radius:0;
+  cursor:pointer;
+  font-family:'JetBrains Mono', monospace;
+  font-size:0.9rem;
+  line-height:1;
+}
+
+.theme-toggle-btn:hover{
+  opacity:0.92;
+}
+
+.theme-toggle-label{
+  opacity:0.9;
+}
+
+.theme-toggle-state{
+  opacity:0.75;
+}
