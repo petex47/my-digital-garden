@@ -1,25 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/* ===== FORCE LIGHT MAIN / DARK SIDEBAR ===== */
 body {
   --background-primary: #ffffff;
   --background-primary-alt: #f7f7f7;
-
   --background-secondary: #050505;
   --background-secondary-alt: #101010;
-
   --text-normal: #111111;
   --text-muted: #555555;
   --text-faint: #777777;
-
   --text-accent: #f7c428;
   --text-accent-hover: #ffd95e;
-
   --link-color: #111111;
   --link-color-hover: #444444;
 }
 
-/* global */
 html,
 body {
   background: #ffffff !important;
@@ -27,7 +21,6 @@ body {
   font-family: 'Manrope', sans-serif !important;
 }
 
-/* main content area */
 main,
 article,
 .content,
@@ -38,7 +31,6 @@ article,
   color: #111111 !important;
 }
 
-/* main text */
 main p,
 main li,
 main span,
@@ -50,10 +42,8 @@ article span,
 article div,
 article blockquote {
   color: #111111 !important;
-  font-family: 'Manrope', sans-serif !important;
 }
 
-/* headings */
 main h1,
 main h2,
 main h3,
@@ -89,7 +79,6 @@ article h6 {
   color: #111111 !important;
 }
 
-/* links in content */
 main a,
 article a {
   color: #111111 !important;
@@ -97,12 +86,6 @@ article a {
   text-underline-offset: 3px !important;
 }
 
-main a:hover,
-article a:hover {
-  color: #444444 !important;
-}
-
-/* keep sidebar dark */
 aside,
 .sidebar,
 .left-sidebar,
@@ -121,15 +104,6 @@ nav a {
   text-decoration: none !important;
 }
 
-aside a:hover,
-.sidebar a:hover,
-.left-sidebar a:hover,
-.filetree-sidebar a:hover,
-nav a:hover {
-  color: #ffe69a !important;
-}
-
-/* brand box */
 .site-title,
 .brand,
 .logo {
@@ -137,7 +111,6 @@ nav a:hover {
   background: #101010 !important;
 }
 
-/* code */
 code,
 pre {
   font-family: 'JetBrains Mono', monospace !important;
