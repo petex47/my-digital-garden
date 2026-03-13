@@ -11,6 +11,7 @@
 > Follow me on X -  [petex47](https://x.com/petex47)
 
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
+
 **The Kaizen Garden**
 
 Train.
