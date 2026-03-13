@@ -14,12 +14,12 @@
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
 Start here:
-[[00 - About/About\|About]] 
-[[01 - Philosophy/Philosophy\|Philosophy]]
-[[02 - Training/Training\|Training]]
-[[03 - Nutrition/Nutrition\|Nutrition]]
-[[04 - Business/Business\|Business]]
-[[05 - Faith/Faith\|Faith]]
+**[[00 - About/About\|About]]** 
+**[[01 - Philosophy/Philosophy\|Philosophy]]**
+**[[02 - Training/Training\|Training]]**
+**[[03 - Nutrition/Nutrition\|Nutrition]]**
+**[[04 - Business/Business\|Business]]**
+**[[05 - Faith/Faith\|Faith]]**
 
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
@@ -53,13 +53,10 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
 ## About Me
 **Who is Pete?**
 
- Hey! Nice to meet ya! I'm an aspiring Network Engineer. As an ambitious and motivated individual, I (try my best to) live a minimal, intentional life while doing what I love: learning new technologies, working out, writing and becoming financially independent.
-
 > **"Make ambition, speed, and intensity your best friends."** - Jay Yang
 
 
  **Public notes** on networking, automation, Linux, endurance, and mindset.
-#### A daily reminder to execute and make your dreams happen.
 
 **Career**
 
