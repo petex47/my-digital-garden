@@ -1,109 +1,195 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 /* =========================
-   GLOBAL FONTS
+   BRAND TOKENS
 ========================= */
-body {
-  font-family: 'Manrope', sans-serif !important;
-}
-
-/* headers + brand */
-h1, h2, h3, h4, h5, h6,
-.site-title,
-.brand,
-.logo,
-.sidebar a,
-nav a {
-  font-family: 'JetBrains Mono', monospace !important;
+:root{
+  --kz-bg: #f7f5f2;         /* softer than pure white */
+  --kz-text: #111111;
+  --kz-muted: #5e5e5e;
+  --kz-sidebar-bg: #050505;
+  --kz-sidebar-text: #f5f5f5;
+  --kz-accent: #f7c428;
+  --kz-border: rgba(0,0,0,0.08);
 }
 
 /* =========================
-   PAGE LAYOUT
+   GLOBAL
 ========================= */
-
-/* whole page */
 html,
 body {
-  background: #ffffff !important;
-  color: #111111 !important;
+  background: var(--kz-bg) !important;
+  color: var(--kz-text) !important;
+  font-family: 'Manrope', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* outer layout */
+/* body text */
+body,
+p,
+li,
+span,
+div,
+blockquote {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.brand,
+.logo {
+  font-family: 'JetBrains Mono', monospace !important;
+  color: var(--kz-text) !important;
+  letter-spacing: -0.02em;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+aside,
+.sidebar,
+.left-sidebar,
+.filetree-sidebar,
+nav,
+.menu,
+.tree-container {
+  background: var(--kz-sidebar-bg) !important;
+  color: var(--kz-sidebar-text) !important;
+  border-right: 1px solid rgba(255,255,255,0.05) !important;
+}
+
+/* sidebar brand */
+.site-title,
+.brand,
+.logo {
+  color: #f1ece6 !important;
+}
+
+/* sidebar links */
+aside a,
+.sidebar a,
+.left-sidebar a,
+.filetree-sidebar a,
+nav a {
+  color: var(--kz-accent) !important;
+  text-decoration: none !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+
+aside a:hover,
+.sidebar a:hover,
+.left-sidebar a:hover,
+.filetree-sidebar a:hover,
+nav a:hover {
+  color: #fff1b0 !important;
+}
+
+/* sidebar non-link text */
+aside,
+.sidebar,
+.left-sidebar,
+.filetree-sidebar {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+/* page shell */
 main {
-  background: #ffffff !important;
-  max-width: 980px !important;
-  margin: 0 auto !important;
-  padding: 56px 64px !important;
-  box-shadow: none !important;
+  background: var(--kz-bg) !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 56px 72px 96px 88px !important; /* more breathing room from sidebar */
+  display: block !important;
+  box-sizing: border-box !important;
 }
 
-/* article/content card */
+/* content column */
 article,
 .markdown-preview-view,
 .dg-article,
 .content {
-  background: #ffffff !important;
-  color: #111111 !important;
+  max-width: 760px !important; /* keeps page from feeling too wide */
+  width: 100% !important;
+  margin: 0 !important;
+  background: transparent !important;
+  color: var(--kz-text) !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
+  padding: 0 !important;
 }
 
 /* =========================
-   MAIN CONTENT STYLING
+   TYPOGRAPHY
 ========================= */
-
 main p,
-main li,
-main span,
-main div,
-main blockquote,
 article p,
+main li,
 article li,
+main span,
 article span,
+main div,
 article div,
+main blockquote,
 article blockquote {
-  color: #111111 !important;
-  line-height: 1.75 !important;
-  font-family: 'Manrope', sans-serif !important;
-}
-
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6,
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-  color: #111111 !important;
-  font-family: 'JetBrains Mono', monospace !important;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-  margin-top: 0.4em;
-  margin-bottom: 0.7em;
+  color: var(--kz-text) !important;
+  line-height: 1.72 !important;
+  font-size: 1.03rem !important;
 }
 
 main h1,
 article h1 {
-  font-size: clamp(2rem, 3vw, 3rem) !important;
+  font-size: clamp(2rem, 3vw, 2.8rem) !important;
+  line-height: 1.08 !important;
+  margin: 0 0 1.25rem 0 !important;
 }
 
 main h2,
 article h2 {
-  font-size: clamp(1.4rem, 2vw, 2rem) !important;
+  font-size: clamp(1.4rem, 2vw, 1.9rem) !important;
+  line-height: 1.15 !important;
+  margin: 2.2rem 0 0.85rem 0 !important;
 }
 
+main h3,
+article h3 {
+  font-size: 1.15rem !important;
+  margin: 1.6rem 0 0.65rem 0 !important;
+}
+
+main p,
+article p,
+main ul,
+article ul,
+main ol,
+article ol {
+  margin-bottom: 1.1rem !important;
+}
+
+main ul,
+article ul,
+main ol,
+article ol {
+  padding-left: 1.35rem !important;
+}
+
+/* =========================
+   LINKS IN CONTENT
+========================= */
 main a,
 article a {
-  color: #111111 !important;
+  color: var(--kz-text) !important;
   text-decoration: underline !important;
   text-decoration-thickness: 1px !important;
   text-underline-offset: 3px !important;
+  transition: color 0.18s ease, opacity 0.18s ease;
 }
 
 main a:hover,
@@ -111,86 +197,53 @@ article a:hover {
   color: #444444 !important;
 }
 
-main ul,
-main ol,
-article ul,
-article ol {
-  padding-left: 1.4rem !important;
-  margin-bottom: 1.2rem !important;
-}
-
+/* =========================
+   BLOCKQUOTE / HR / CODE
+========================= */
 main blockquote,
 article blockquote {
-  border-left: 3px solid #111111 !important;
+  border-left: 3px solid var(--kz-text) !important;
   padding-left: 16px !important;
   margin-left: 0 !important;
   color: #222222 !important;
 }
 
+hr {
+  border: none !important;
+  border-top: 1px solid var(--kz-border) !important;
+  margin: 2rem 0 !important;
+}
+
 code,
 pre {
   font-family: 'JetBrains Mono', monospace !important;
+  border-radius: 8px !important;
 }
 
 /* =========================
-   SIDEBAR: KEEP DARK
+   MOBILE
 ========================= */
+@media (max-width: 900px) {
+  main {
+    padding: 28px 24px 56px 24px !important;
+  }
 
-aside,
-.sidebar,
-.filetree-sidebar,
-.left-sidebar,
-nav,
-.menu,
-.tree-container {
-  background: #050505 !important;
-  color: #f5f5f5 !important;
-}
+  article,
+  .markdown-preview-view,
+  .dg-article,
+  .content {
+    max-width: 100% !important;
+  }
 
-/* sidebar links */
-aside a,
-.sidebar a,
-.filetree-sidebar a,
-.left-sidebar a,
-nav a {
-  color: #f7c428 !important;
-  text-decoration: none !important;
-  font-family: 'JetBrains Mono', monospace !important;
-}
+  main h1,
+  article h1 {
+    font-size: 1.8rem !important;
+  }
 
-aside a:hover,
-.sidebar a:hover,
-.filetree-sidebar a:hover,
-.left-sidebar a:hover,
-nav a:hover {
-  color: #fff3c4 !important;
-}
-
-/* sidebar section labels / muted text */
-aside,
-.sidebar,
-.filetree-sidebar,
-.left-sidebar {
-  font-family: 'Manrope', sans-serif !important;
-}
-
-/* sidebar brand box */
-.site-title,
-.brand,
-.logo {
-  color: #f2f2f2 !important;
-}
-
-/* =========================
-   CLEANER SPACING
-========================= */
-
-hr {
-  border: none !important;
-  border-top: 1px solid #e5e5e5 !important;
-  margin: 32px 0 !important;
-}
-
-p + p {
-  margin-top: 0.9rem !important;
+  main p,
+  article p,
+  main li,
+  article li {
+    font-size: 1rem !important;
+  }
 }
