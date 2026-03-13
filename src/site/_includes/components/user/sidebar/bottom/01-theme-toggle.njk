@@ -1,0 +1,33 @@
+<div class="theme-toggle-wrap">
+  <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle theme">
+    <span class="theme-toggle-label">Theme</span>
+    <span class="theme-toggle-state" id="theme-toggle-state">Light</span>
+  </button>
+</div>
+
+<script>
+(function () {
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("petex47-theme", theme);
+    const state = document.getElementById("theme-toggle-state");
+    if (state) state.textContent = theme === "dark" ? "Dark" : "Light";
+  }
+
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") || "light";
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    applyTheme(currentTheme());
+
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+
+    btn.addEventListener("click", function () {
+      const next = currentTheme() === "dark" ? "light" : "dark";
+      applyTheme(next);
+    });
+  });
+})();
+</script>
