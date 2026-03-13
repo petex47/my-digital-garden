@@ -76,7 +76,7 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
 - Aiming to transition to tech as a Network Engineer (I hope to start as an IT Network Technician or something similar.)
 - Learning to be proficient in Python in Network Automation
 
-[**Hobbies and Interests**]
+**Hobbies and Interests**
 
 - Running and Lifting (Marathons and Ironman 70.3 training)
 - Writing
