@@ -6,7 +6,6 @@
 🏴 Hi, I'm PETEX47
 **Planted:** 03/12/2026
 **Last tended:** 03/12/2026
-**Author:** Pete Quinones IV
 
 > [!caution] Work In Progress
 > This site is currently a work in progress. 
