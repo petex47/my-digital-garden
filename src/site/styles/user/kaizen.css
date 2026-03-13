@@ -1,19 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-body {
+/* Regular text */
+html,
+body,
+p,
+li,
+span,
+div,
+a,
+button,
+input,
+textarea,
+blockquote {
   font-family: 'Manrope', sans-serif !important;
 }
 
+/* Headers + site title + sidebar section titles */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.site-title {
+.site-title,
+.brand,
+.sidebar a,
+nav a,
+header a {
   font-family: 'JetBrains Mono', monospace !important;
 }
 
+/* Optional: keep code blocks mono too */
 code,
 pre {
   font-family: 'JetBrains Mono', monospace !important;
