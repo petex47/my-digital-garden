@@ -2,15 +2,13 @@
 {"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","pinned":true,"tags":["gardenEntry"],"created":"2026-03-12T03:15:27.212-05:00"}
 ---
 
-
-> [!caution] Work In Progress
-> This site is always being updated with new things that I learn or experience.
-> Follow me on X -  [petex47](https://x.com/petex47)
-
-
-🏴 Hi, I'm PETEX47
 **Planted:** 03/12/2026
 **Last tended:** 03/12/2026
+
+**🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.
+
+WELCOME TO THE KAIZEN GARDEN
+
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
 Start here:
@@ -75,11 +73,12 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
 
 
 ---
-## Links 
+## Personal Links 
 -  [X](https://x.com/petex47)
 -  [GitHub](https://github.com/petex47)
 - [LinkedIn](https://www.linkedin.com/in/petequinonesiv/)
 - [Instagram](https://www.instagram.com/petex47/)
+## The Kaizen Tribe Collective
 - [Kaizen Fuel Kitchen | Performance Meal Prep]([kaizenfuelkitchen.com](https://kaizenfuelkitchen.com))
 -  [The Kaizen Tribe Journal](https://letters.thekaizentribe.co)
 - [Kaizen Wolf TX | Performance Seasoning Blends](https://kaizenwolftx.com) 
