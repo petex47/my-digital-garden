@@ -41,7 +41,6 @@ Fuel.
 Build.
 Pray.
 
-#### Check out my [[CV\|CV]] + [GitHub](https://github.com/petex47)
 
 **Hey, what’s up? Welcome to My Tech Portfolio**
 
@@ -49,12 +48,11 @@ Yo, I’m Petex! I’m diving headfirst into the world of IT and networking, and
 
 **Here’s what I’m currently grinding on:**
 
-- **Python**: Writing scripts and building cool stuff to make network tasks easier and more efficient.
-- **Networking**: Getting deep into how networks work, from setting them up to fixing issues when they go down.
-- **Network Automation**: Automating the boring stuff so I can focus on bigger challenges. Python is my go-to tool for this.
-- **Linux**: Exploring the ins and outs of Linux because it’s everywhere in the tech world, and it’s crucial to know it well.
-- **Azure**: Messing around with cloud tech, especially Azure, to understand how to build and manage networks in the cloud.
-- **Network Security**: Learning how to keep networks safe from the bad guys and make sure everything runs smoothly.
+- thing #1
+- thing #1
+- thing #1
+- thing #1
+- **thing #1
 
 This site is where I’m throwing down everything I’m learning—projects, certifications, and all that good stuff. If you’re into tech, want to see what I’m up to, or just wanna chat about this journey, you’re in the right place.
 
@@ -86,21 +84,18 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
  - Line cook (10 years)
  - training for a marathon
  - Went to my first tech conference this year (PyTexas 2024)
-# *Pete Quinxnes IV*
 
- ![[Pasted image 20240818190817.png\|Pasted image 20240818190817.png]]
-(First time attending a PyTexas Conference 2024 - Austin, TX
----
 
 ---
 ## Links 
 -  [X](https://x.com/petex47)
 -  [GitHub](https://github.com/petex47)
 - [LinkedIn](https://www.linkedin.com/in/petequinonesiv/)
-- [Instagram](https://www.instagram.com/petex.47/)
--  [Strava](https://www.strava.com/athletes/106481123)
+- [Instagram](https://www.instagram.com/petex47/)
+- [Kaizen Fuel Kitchen | Performance Meal Prep]([kaizenfuelkitchen.com](https://kaizenfuelkitchen.com))
+-  [The Kaizen Tribe Journal](https://letters.thekaizentribe.co)
+- [Kaizen Wolf TX | Performance Seasoning Blends](https://kaizenwolftx.com) 
 ---
 [Built by *petex47* .](https://x.com/petex47)
-
 
 Powered By [Obsidian](https://obsidian.md/) + [Digital Garden ](https://dg-docs.ole.dev/)
