@@ -2,13 +2,15 @@
 {"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","pinned":true,"tags":["gardenEntry"],"created":"2026-03-12T03:15:27.212-05:00"}
 ---
 
-🏴 Hi, I'm PETEX47
-**Planted:** 03/12/2026
-**Last tended:** 03/12/2026
 
 > [!caution] Work In Progress
 > This site is always being updated with new things that I learn or experience.
 > Follow me on X -  [petex47](https://x.com/petex47)
+
+
+🏴 Hi, I'm PETEX47
+**Planted:** 03/12/2026
+**Last tended:** 03/12/2026
 
 
 Start here:
