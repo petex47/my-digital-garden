@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/* ===== GLOBAL TOKENS ===== */
+/* force light main area no matter what theme is saved */
+html[data-theme="light"] body,
+html[data-theme="dark"] body,
 body {
   --background-primary: #ffffff;
   --background-primary-alt: #f7f7f7;
@@ -19,24 +21,15 @@ body {
   --link-color-hover: #444444;
 }
 
-/* ===== TYPOGRAPHY ===== */
+/* global */
 html,
 body {
-  font-family: 'Manrope', sans-serif !important;
   background: #ffffff !important;
   color: #111111 !important;
+  font-family: 'Manrope', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.site-title,
-.brand,
-.logo,
-.sidebar a,
-nav a {
-  font-family: 'JetBrains Mono', monospace !important;
-}
-
-/* ===== MAIN CONTENT: WHITE ===== */
+/* main content */
 main,
 article,
 .content,
@@ -47,6 +40,7 @@ article,
   color: #111111 !important;
 }
 
+/* text */
 main p,
 main li,
 main span,
@@ -58,6 +52,28 @@ article span,
 article div,
 article blockquote {
   color: #111111 !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* headings */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+.site-title,
+.brand,
+.logo,
+.sidebar a,
+nav a {
+  font-family: 'JetBrains Mono', monospace !important;
 }
 
 main h1,
@@ -75,6 +91,7 @@ article h6 {
   color: #111111 !important;
 }
 
+/* links in content */
 main a,
 article a {
   color: #111111 !important;
@@ -87,7 +104,7 @@ article a:hover {
   color: #444444 !important;
 }
 
-/* ===== SIDEBAR: KEEP DARK ===== */
+/* keep sidebar dark */
 aside,
 .sidebar,
 .left-sidebar,
@@ -114,7 +131,7 @@ nav a:hover {
   color: #ffe69a !important;
 }
 
-/* ===== BRAND BOX ===== */
+/* brand box */
 .site-title,
 .brand,
 .logo {
@@ -122,7 +139,7 @@ nav a:hover {
   background: #101010 !important;
 }
 
-/* ===== CODE ===== */
+/* code */
 code,
 pre {
   font-family: 'JetBrains Mono', monospace !important;
