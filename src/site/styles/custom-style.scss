@@ -2,133 +2,70 @@
 
 body {
   --background-primary: #ffffff;
-  --background-primary-alt: #f7f7f7;
   --background-secondary: #050505;
-  --background-secondary-alt: #101010;
   --text-normal: #111111;
-  --text-muted: #555555;
-  --text-faint: #777777;
   --text-accent: #f7c428;
-  --text-accent-hover: #ffd95e;
   --link-color: #111111;
-  --link-color-hover: #444444;
 }
 
-html,
-body {
+html, body {
   background: #ffffff !important;
   color: #111111 !important;
   font-family: 'Manrope', sans-serif !important;
 }
 
-main,
-article,
-.content,
-.dg-article,
-.markdown-preview-view,
-.markdown-preview-section {
+main, article, .content, .dg-article {
   background: #ffffff !important;
   color: #111111 !important;
 }
 
-main p,
-main li,
-main span,
-main div,
-main blockquote,
-article p,
-article li,
-article span,
-article div,
-article blockquote {
-  color: #111111 !important;
-}
-
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6,
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6,
-.site-title,
-.brand,
-.logo,
-.sidebar a,
-nav a {
+main h1, main h2, main h3,
+article h1, article h2, article h3 {
   font-family: 'JetBrains Mono', monospace !important;
-}
-
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6,
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
   color: #111111 !important;
 }
 
-main a,
-article a {
+main a, article a {
   color: #111111 !important;
   text-decoration: underline !important;
-  text-underline-offset: 3px !important;
 }
 
-aside,
-.sidebar,
-.left-sidebar,
-.filetree-sidebar,
-nav {
+aside, .sidebar, .filetree-sidebar, nav {
   background: #050505 !important;
   color: #f2f2f2 !important;
 }
 
-aside a,
-.sidebar a,
-.left-sidebar a,
-.filetree-sidebar a,
-nav a {
+aside a, .sidebar a, .filetree-sidebar a, nav a {
   color: #f7c428 !important;
-  text-decoration: none !important;
 }
 
-.site-title,
-.brand,
-.logo {
-  color: #ece7df !important;
-  background: #101010 !important;
+/* DESKTOP ONLY — sidebar offset */
+@media (min-width: 769px) {
+  .content, .main-content, .dg-content, #content, main {
+    margin-left: 280px !important;
+    padding: 2rem !important;
+  }
 }
 
-code,
-pre {
-  font-family: 'JetBrains Mono', monospace !important;
-}
-/* Fix content overlap with sidebar */
-.content,
-.main-content,
-.dg-content,
-#content,
-main {
-  margin-left: 280px !important;
-  padding: 2rem !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-}
-/* Fix home note title in sidebar */
-.nav-node-title,
-.sidebar .active,
-.filetree-sidebar .active {
-  color: #f7c428 !important;
+/* MOBILE — reset everything */
+@media (max-width: 768px) {
+  .content, .main-content, .dg-content, #content, main {
+    margin-left: 0 !important;
+    padding: 1rem !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+
+  html {
+    font-size: 15px !important;
+  }
+
+  main h1, article h1 {
+    font-size: 1.4rem !important;
+  }
+
+  main h2, article h2 {
+    font-size: 1.2rem !important;
+  }
 }
