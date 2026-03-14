@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","pinned":true,"tags":["gardenEntry"],"created":"2026-03-12T03:15:27.212-05:00"}
+{"dg-publish":true,"permalink":"/welcome-to-the-kaizen-garden/","pinned":true,"tags":["gardenEntry"]}
 ---
 
 **Planted:** 03/12/2026
@@ -8,21 +8,20 @@
 
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
-### **🏴 Hi, I'm PETEX47** -- Looks like you found my corner of the internet.>>>
-Train. Fuel. Build. Pray.
+### **🏴 Hi, I'm [@PETEX47](https://www.instagram.com/petex47/)** - Looks like you found my corner of the internet.
 This is my living handbook documenting the journey of building:
 
 • Kaizen Fuel Kitchen
 • Kaizen Wolf TX
 • The Kaizen Tribe
 
-Start here:
-**[[00 - About/About\|About]]** 
-**[[01 - Philosophy/Philosophy\|Philosophy]]**
-**[[02 - Training/Training\|Training]]**
-**[[03 - Nutrition/Nutrition\|Nutrition]]**
-**[[04 - Business/Business\|Business]]**
-**[[05 - Faith/Faith\|Faith]]**
+**Start here:**
+[[00 - About/About\|About]] 
+[[01 - Philosophy/Philosophy\|Philosophy]]
+[[02 - Training/Training\|Training]]
+[[03 - Nutrition/Nutrition\|Nutrition]]
+[[04 - Business/Business\|Business]]
+[[05 - Faith/Faith\|Faith]]
 
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
@@ -49,6 +48,6 @@ Feel free to look around, hit me up if you want to connect, or just drop a comme
 -  [The Kaizen Tribe Journal](https://letters.thekaizentribe.co)
 - [Kaizen Wolf TX | Performance Seasoning Blends](https://kaizenwolftx.com) 
 ---
-[Built by *petex47* .](https://x.com/petex47)
+**[Built by *petex47* .](https://x.com/petex47)**
 
-Powered By [Obsidian](https://obsidian.md/) + [Digital Garden ](https://dg-docs.ole.dev/)
+Powered By **[Obsidian](https://obsidian.md/)** + **[Digital Garden ](https://dg-docs.ole.dev/)**
