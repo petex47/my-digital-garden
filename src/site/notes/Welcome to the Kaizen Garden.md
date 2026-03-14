@@ -9,7 +9,7 @@
 ![petex47.jpg|238](/img/user/petex47.jpg)
 
 ### **🏴 Hi, I'm [@PETEX47](https://www.instagram.com/petex47/)** - Looks like you found my corner of the internet.
-This is my living handbook documenting the journey of building:
+This is my living handbook documenting the journey of building [The Kaizen Tribe Collective]:
 
 • Kaizen Fuel Kitchen
 • Kaizen Wolf TX
@@ -25,13 +25,6 @@ This is my living handbook documenting the journey of building:
 
 **The rule for the garden:** Don't try to make it perfect. Write like you're leaving notes for your future self. Publish early, update often — that's the whole point of a living handbook.
 
-**Here’s what I’m currently grinding on:**
-
-- thing #1
-- thing #1
-- thing #1
-- thing #1
-- **thing #1
 
 This site is where I’m throwing down everything I’m learning—projects, certifications, and all that good stuff. If you’re into tech, want to see what I’m up to, or just wanna chat about this journey, you’re in the right place.
 
